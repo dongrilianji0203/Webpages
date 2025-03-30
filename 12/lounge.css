@@ -1,0 +1,32 @@
+
+p {
+  color: black;
+  font-size: 20px;          
+  display: flex;            
+  align-items: center;      
+  gap: 30px;                
+}
+
+img {
+  width: 200%;             
+  height: auto;
+  max-width: 300px;        
+}
+
+body {
+  font-family: Arial;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: hsl(22, 54%, 46%);  
+  font-size: 75px;          
+  font-weight: 300;          
+}
+
+h1,h2 {
+  font-family: Arial;
+  color: gray;
+}
+
+h1 {
+  border-bottom:1px solid black;
+}
