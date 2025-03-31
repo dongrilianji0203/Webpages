@@ -1,6 +1,6 @@
 
 p {
-  color: black;
+  color:maroon ;
   font-size: 20px;          
   display: flex;            
   align-items: center;      
@@ -8,18 +8,18 @@ p {
 }
 
 img {
-  width: 200%;             
+  width: 70%;             
   height: auto;
-  max-width: 300px;        
+  max-width: 100px;        
 }
 
 body {
   font-family: Arial;
   margin-left: 20%;
   margin-right: 20%;
-  background-color: hsl(22, 54%, 46%);  
-  font-size: 75px;          
-  font-weight: 300;          
+  background-color:rgb(237, 218, 200);  
+  font-size: 25px;          
+  font-weight: 100;          
 }
 
 h1,h2 {
