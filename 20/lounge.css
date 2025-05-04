@@ -1,0 +1,90 @@
+body {
+	font-size: small;
+	font-family: Verdana， Helvetica， Arial;
+}
+
+h1, h2 {
+	color: #007e7e; 
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.guarantee {
+	border-color:        white;
+	border-width:        1px;
+	border-style:        dashed;
+	 background-color:    #a7cece; 
+	padding:             25px; 
+	padding-left: 80px;
+	margin:              30px; 
+	list-style:          italic; 
+	color:#444444;
+	background-image: url(images/background.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+	border: white dashed 1px;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	margin-right: 300px;
+	line-height: 1.9em;
+  font-family: Georgia,"Times New Roman";
+  font-style: italic;
+  color:#444444
+  }
+
+.elixirs {
+	float: right;
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 200px; 
+
+	padding: 0px 20px 20px 20px;
+	margin-left:     20px;
+	background-image:    url(images/cocktail.gif);
+	background-repeat:   repeat-x;
+
+	text-align:          center;  
+}
+
+.elixirs h2 {
+	color: #000;
+}
+
+.elixirs > h3 {
+	color: #d12c47;
+}
+
+.cd {
+	display: inline-block;
+	font-style: italic;
+	/* width: 500px; */
+}
+
+.artist {
+	font-weight: bold;
+}
+p {
+	color: #db3689;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: yellow;
+}
+green-font {
+	color: green;
+}
+red-font {
+	color: red;
+}
+blue-font {
+	color: blue;
+}
