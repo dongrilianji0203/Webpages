@@ -1,0 +1,73 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 10.5px;
+    color: black;
+    background-color: #ffffff;
+}
+.bm-m-footer__link-list-content-container.bm-state-active .bm-footer__link-list-label {
+    background: 
+color-mix(in srgb, var(--bm-text-color, --bm-basic-white) 5%, transparent);
+    border: none;
+}
+a:hover {
+    color: #445040;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    transform: scaleY(0.85);
+}
+.flex-container {
+    display: flex;  
+    justify-content: flex-end;
+    justify-content: center;
+    margin: 150px;
+}
+.flex-link {
+    margin-left: 20px;
+}
+span {
+    right:5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 50;
+}
+.parent-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center
+}
+blockquote {
+    position: relative;
+    padding-left: 20px;
+}
+.quote-icon {
+    position: relative;
+    padding-left: 20px; /* 为图标留出空间 */
+}
+
+.quote-icon::before {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    top: 50%; 
+    transform: translateY(-50%);
+    font-size: 2em; /* 设置图标的大小 */
+    color: #666; /* 设置图标颜色 */
+}
+ .header-lift{
+    letter-spacing: 40px;
+    margin-left: 650px;
+}
+.images-link {
+    display: inline-table;
+    background-image:url("file:///C:/Users/Administrator/Desktop/8234622754AD6AD51716E28FE70DC14A.jpg");
+    background-position: 20% 0%; /* 调整背景图片的位置 */
+}
